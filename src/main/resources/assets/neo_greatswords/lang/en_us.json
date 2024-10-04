@@ -1,0 +1,10 @@
+{
+  "itemGroup.neo_greatswords.tab": "Neo Greatswords",
+
+  "item.neo_greatswords.wooden_greatsword": "Wooden Greatsword",
+  "item.neo_greatswords.stone_greatsword": "Stone Greatsword",
+  "item.neo_greatswords.iron_greatsword": "Iron Greatsword",
+  "item.neo_greatswords.diamond_greatsword": "Diamond Greatsword",
+  "item.neo_greatswords.golden_greatsword": "Golden Greatsword",
+  "item.neo_greatswords.netherite_greatsword": "Netherite Greatsword"
+}
