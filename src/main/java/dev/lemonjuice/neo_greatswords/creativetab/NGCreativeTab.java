@@ -2,7 +2,6 @@ package dev.lemonjuice.neo_greatswords.creativetab;
 
 import dev.lemonjuice.neo_greatswords.NeoGreatswords;
 import dev.lemonjuice.neo_greatswords.item.NGItems;
-import dev.lemonjuice.scalar_core.ScalarCore;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +23,7 @@ public class NGCreativeTab {
         if (event.getTab() == NG_ITEMS_TAB.get()) {
             event.accept(NGItems.WOODEN_GREATSWORD.get());
             event.accept(NGItems.STONE_GREATSWORD.get());
+            event.accept(NGItems.COPPER_GREATSWORD.get());
             event.accept(NGItems.IRON_GREATSWORD.get());
             event.accept(NGItems.DIAMOND_GREATSWORD.get());
             event.accept(NGItems.GOLDEN_GREATSWORD.get());

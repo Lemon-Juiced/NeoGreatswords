@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "neo_greatswords:item/copper_greatsword"
+  }
+}

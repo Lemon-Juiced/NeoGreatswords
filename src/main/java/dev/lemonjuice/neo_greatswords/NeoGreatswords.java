@@ -2,13 +2,10 @@ package dev.lemonjuice.neo_greatswords;
 
 import dev.lemonjuice.neo_greatswords.creativetab.NGCreativeTab;
 import dev.lemonjuice.neo_greatswords.item.NGItems;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -33,11 +30,5 @@ public class NeoGreatswords {
     private void commonSetup(final FMLCommonSetupEvent event) {}
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {}
-
-    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {}
-    }
+    public void onServerStarting(ServerStartingEvent event){}
 }
