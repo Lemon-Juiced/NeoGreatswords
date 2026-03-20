@@ -6,12 +6,8 @@
     "/# "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:diamond"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:diamond",
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "neo_greatswords:diamond_greatsword",

@@ -6,12 +6,8 @@
     "/# "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:copper_ingot"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:copper_ingot",
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "neo_greatswords:copper_greatsword",

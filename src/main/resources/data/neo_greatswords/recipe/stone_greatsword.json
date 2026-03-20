@@ -6,12 +6,8 @@
     "/# "
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "#": "#minecraft:stone_crafting_materials",
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "neo_greatswords:stone_greatsword",

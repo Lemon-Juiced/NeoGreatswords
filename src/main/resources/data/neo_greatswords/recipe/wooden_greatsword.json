@@ -6,12 +6,8 @@
     "/# "
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:logs"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    }
+    "#": "#minecraft:logs",
+    "/": "minecraft:stick"
   },
   "result": {
     "id": "neo_greatswords:wooden_greatsword",
